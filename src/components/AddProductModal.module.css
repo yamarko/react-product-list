@@ -1,0 +1,75 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background: rgb(235, 235, 235);
+  color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  text-align: center;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+input {
+  width: 80%;
+  padding: 0.5em;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #646cff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(100, 108, 255, 0.5);
+}
+
+label {
+  align-self: flex-start;
+  font-size: 1em;
+  font-family: inherit;
+  color:#1a1a1a;
+  font-weight: 500;
+  margin-left: 50px;
+}
+
+.addPruductButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 30px 30px;
+}
+
+.addPruductButton:hover {
+  border-color: #646cff;
+}
+
+.addPruductButton:focus,
+.addPruductButton:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

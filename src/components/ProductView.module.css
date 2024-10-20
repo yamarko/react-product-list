@@ -1,0 +1,97 @@
+.mainView {
+  margin: 100px 40px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background: white;
+  color: #1a1a1a;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.productDetails {
+  margin: 20px 0px;
+  text-align: left;
+}
+
+.productImage {
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.modalEditProductButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 30px 30px;
+}
+.modalEditProductButton:hover {
+  border-color: #646cff;
+}
+.modalEditProductButton:focus,
+.modalEditProductButton:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.editProductButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 0px 190px;
+}
+.editProductButton:hover {
+  border-color: #646cff;
+}
+.editProductButton:focus,
+.editProductButton:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.deleteCommentButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 10px 40px;
+}
+.deleteCommentButton:hover {
+  border-color: #646cff;
+}
+.deleteCommentButton:focus,
+.deleteCommentButton:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
